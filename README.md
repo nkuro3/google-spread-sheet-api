@@ -11,16 +11,15 @@ Basically follow the [official getting started](https://developers.google.com/sh
 1. create project in Google Cloud Platform
 2. enable Google Sheets API
 3. install npm modules
-  ```
-  npm install googleapis @google-cloud/local-auth --save
-  ```
+   ```
+   npm install googleapis @google-cloud/local-auth --save
+   ```
 4. select authentication method
+   there are 3 way to [create credencials](https://developers.google.com/workspace/guides/create-credentials).
+   select the authentication method refering to [this article](https://boul.tech/sheets-api-get-dataframe/).
+   this time I use google workspace account, so select `OAuth 2.0 client ID`.
 
-  there are 3 way to [create credencials](https://developers.google.com/workspace/guides/create-credentials).
-  select the authentication method refering to [this article](https://boul.tech/sheets-api-get-dataframe/).
-  this time I use google workspace account, so select `OAuth 2.0 client ID`.
 5. set OAuth consent screen
-
    before create OAuth 2.0 client ID, it si nessesary to setup OAuth consent screen.
    1. select internal type. (if use free account, only external type can be selected and there is a little difference.)
    2. in this time, issure token.json (To be described later) at local, then it si enougth to enter only must items at the first step.
