@@ -11,7 +11,7 @@ Basically follow the [official getting started](https://developers.google.com/sh
    ```
    npm install googleapis @google-cloud/local-auth --save
    ```
-4. select authentication method 
+4. select authentication method  
    there are 3 way to [create credencials](https://developers.google.com/workspace/guides/create-credentials).
    select the authentication method refering to [this article](https://boul.tech/sheets-api-get-dataframe/).
    this time I use google workspace account, so select `OAuth 2.0 client ID`.
