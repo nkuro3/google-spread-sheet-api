@@ -1,4 +1,5 @@
 # google-spread-sheet-api
+
 ## todo
 - [x]  Set Up (Google Sheet Api v4 を使えるようにするまでのセットアップ)
 - [ ]  Edit (Google Sheet Api v4 で書き込む。)
@@ -32,6 +33,5 @@ Basically follow the [official getting started](https://developers.google.com/sh
    3. authentificatino window is launtched and push ok.
    4. then, token.json is created.
 
-
-
-
+### Edit
+[Google Sheets API v4】 appendの仕様](https://qiita.com/nkuro/items/6400d437ec3859bfef01)
