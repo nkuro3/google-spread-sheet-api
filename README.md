@@ -2,7 +2,7 @@
 
 ## todo
 - [x]  Set Up (Google Sheet Api v4 を使えるようにするまでのセットアップ)
-- [ ]  Edit (Google Sheet Api v4 で書き込む。)
+- [x]  Edit (Google Sheet Api v4 で書き込む。)
 
 ### Set Up
 Basically follow the [official getting started](https://developers.google.com/sheets/api/quickstart/nodejs).
@@ -34,4 +34,4 @@ Basically follow the [official getting started](https://developers.google.com/sh
    4. then, token.json is created.
 
 ### Edit
-[Google Sheets API v4】 appendの仕様](https://qiita.com/nkuro/items/6400d437ec3859bfef01)
+[【Google Sheets API v4】 appendの仕様](https://qiita.com/nkuro/items/6400d437ec3859bfef01)
