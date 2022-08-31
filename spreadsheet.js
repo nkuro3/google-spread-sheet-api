@@ -39,7 +39,7 @@ authorize().then(async (auth) => {
   // resource.values.rowsの値
   console.log(update.data.updatedData.values);
 
-  // 書き込み
+  // 挿入
   const append = await sheets.spreadsheets.values.append({
     spreadsheetId: process.env.GOOGLE_SHEET_API_SPREADSHEET_ID,
     range: process.env.GOOGLE_SHEET_API_TEST_SHEET,
