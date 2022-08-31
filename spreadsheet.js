@@ -36,7 +36,7 @@ authorize().then(async (auth) => {
       values : rows,
     }
   });
-  // resource.values.rowsの値
+  // resource.valuesの値
   console.log(update.data.updatedData.values);
 
   // 挿入
@@ -52,7 +52,7 @@ authorize().then(async (auth) => {
       ],
     }
   });
-  // resource.values.rowsの値
+  // resource.valuesの値
   console.log(append.data.updates.updatedData.values);
 
   // appendの仕様について https://qiita.com/nkuro/items/6400d437ec3859bfef01
